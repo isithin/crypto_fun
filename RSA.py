@@ -92,5 +92,4 @@ if __name__=='__main__':
     print(f"DH key generation for alpha = {alpha} and beta = {beta} in group (Z/{n}Z)^* with primitive root {g} yields {(ga,gb)}")
     print(f"DH key exchange yields {dh.key_exchange(alpha, beta, ga, gb)}")
 
-json.dumps()
     

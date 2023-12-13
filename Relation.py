@@ -82,7 +82,10 @@ class Function(Relation):
 if __name__ == '__main__':
     r = Relation({1,2,3},{1,2,3},{(1,1),(1,2),(2,2),(3,2),(3,1)})
     momor = Mono_Set_Relation({1,2,3},{(1,1),(1,2),(2,2),(3,2),(3,1)})
+    print("Is reflexive?")
     print(momor.is_refleive())
+    print("Is antisymmetric?")
     print(momor.is_antisymmetric())
+    print("Is transitive?")
     print(momor.is_transitive())
     
