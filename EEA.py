@@ -1,4 +1,3 @@
-#write a function that calculates with the enhanced eucledean algorithm given two numbers
 def enhanced_euclidean_algorithm(a,b):
     if a == 0:
         return (b,0,1)
