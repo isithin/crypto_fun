@@ -8,7 +8,9 @@ def enhanced_euclidean_algorithm(a,b):
         return (g,x-(b//a)*y,y)
     
 if __name__ == "__main__":
-    print(enhanced_euclidean_algorithm(13,57))
-    print("The greatest common divisor of {} and {} is {}".format(13,57,enhanced_euclidean_algorithm(13,57)[0]))
-    print("The coefficients of {} and {} are {} and {}".format(13,57,enhanced_euclidean_algorithm(13,57)[1],enhanced_euclidean_algorithm(13,57)[2]))
-    print("{}*{} + {}*{} = {}".format(13,enhanced_euclidean_algorithm(13,57)[1],57,enhanced_euclidean_algorithm(13,57)[2],enhanced_euclidean_algorithm(13,57)[0]))
+    a = 7
+    b = 40
+    print(enhanced_euclidean_algorithm(a,b))
+    print("The greatest common divisor of {} and {} is {}".format(a,b,enhanced_euclidean_algorithm(a,b)[0]))
+    print("The coefficients of {} and {} are {} and {}".format(a,b,enhanced_euclidean_algorithm(a,b)[1],enhanced_euclidean_algorithm(a,b)[2]))
+    print("{}*{} + {}*{} = {}".format(13,enhanced_euclidean_algorithm(a,b)[1],b,enhanced_euclidean_algorithm(a,b)[2],enhanced_euclidean_algorithm(a,b)[0]))
